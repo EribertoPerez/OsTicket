@@ -59,5 +59,26 @@ Next, download and install the C++ Redistributable and MySQL Server
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/6b2112e8-9ea6-4382-87aa-08a9ae146f88" height="300" width="450">
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/cbbae151-267d-4bd2-97e2-5a6dc006021d" height="400" width="450">
 </p>
+<br />
+<p>
+Next, configure your SQL server (Make sure to write down or use a username and password you will remember!!!) and finish installing
+</p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7093c768-1a85-46fd-b7f0-edbbf41f3fa2" height="400" width="450">
+</p>
+<br />
+<p>
+Next, we will register PHP from within IIS. Start with opening IIS as an Admin and navigate to PHP Manager.
+</p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/0ad261cf-ae4b-4854-b5b7-dcadad15e6db" height="400" width="700">
+</p>
+<br />
+<p>
+From the PHP Manager select register new PHP version and select the folder we unzipped/downloaded PHP into earlier in the lab.
+</p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/2131b5ae-0a0d-4666-adfa-1f8323296978" height="400" width="700">
+</p>
 
 
