@@ -75,10 +75,22 @@ Next, we will register PHP from within IIS. Start with opening IIS as an Admin a
 </p>
 <br />
 <p>
-From the PHP Manager select register new PHP version and select the folder we unzipped/downloaded PHP into earlier in the lab.
+From the PHP Manager select register new PHP version and select the folder we unzipped/downloaded PHP into earlier in the lab. Once finished registering PHP restart IIS so it's 
+using the changes we made.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/2131b5ae-0a0d-4666-adfa-1f8323296978" height="400" width="700">
 </p>
-
+<br />
+<p>
+Next, we'll download OsTicket and extract the 'upload' folder into the 'c:\inetpub\wwwroot' folder and rename it 'osTicket' with no spaces.
+</p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/3cce9694-20af-4644-a5d2-1034caef8f9e" height="400" width="900">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/c7fef3a4-d730-4230-8440-b88de9ffca22" height="100" width="500">
+</p>
+<br />
+<p>
+Open osTicket from the IIS panel by 
+</p>
 
