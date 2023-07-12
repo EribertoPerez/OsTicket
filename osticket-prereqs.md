@@ -94,8 +94,40 @@ Next, we'll download OsTicket and extract the 'upload' folder into the 'c:\inetp
 Open osTicket from the IIS panel by navigating to the osTicket site (Server > Sites > Default Web Site > OsTicket), then on the right hand side click on 'Browse *80' to open OsTicket
 </p>
 <p>
-<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/896fe4ee-27c4-4657-bceb-51a7ddd761fe" height="400" width"1900">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/896fe4ee-27c4-4657-bceb-51a7ddd761fe" height="400" width="500">
 </p>
 <br />
-
-
+<p>
+Now with OsTicket open in the browser you shold see some of the recommended features aren't enabled, we'll enable those by going to our OsTicket browser folder in IIS and using the PHP 
+Manager. Go to enable or disable extentions and enable these extentions; 'php_imap.dil' , 'php_intl.dil' , and 'php_opcache.dil'. After doing this we'll refresh the browser and see that the ones we wnabled turn green.
+</p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7da52cc6-7818-464f-8931-6e2a86a5cc67" height="400" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/12f36763-8ca6-48e7-85ae-45ce93a1bafc" height="400" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/f120e0a2-38dd-427c-b1f3-81cb3dd975bc" height="400" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/3d9233c8-56e2-4309-b3ba-cbb34a255da6" height="400" width="500">
+</p>
+<br />
+<p>
+Next, we need to rename and enable permissions for a file in our osTicket folder we renamed earlier (Windows(C:) > inetpub > wwwroot > osTicket > Include > ost.sampleconfig.php). 
+First we'll rename the file 'ost.sampleconfig.php' to 'ost.config.php', from there we'll change the permissions on that file to be open to 'everyone' (Properties > Security > Advanced). Disable Inheritance first, then add permissions for everyone.
+</p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/e7ab106e-64e9-4b6f-9e17-302f91bc78b0" height="350" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/3a1bbeec-579c-4a55-9330-8e6749fc0186" height="350" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/de33919f-57f6-4bd3-9986-0c8e987d41ce" height="450" width="600">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/f592259a-ba7e-489f-a34f-5462b23a42f6" height="450" width="400">
+</p>
+<br />
+<p>
+Now we'll continue with OsTicket in the browser, configure OsTicket with whichever credentials you prefer just make sure you write them down or remember them for later! After
+the credentials we need to add our SQL database to OsTicket so we can have a database for our users information. In order to do that we will install HeidiSQL, login with our SQL server credientials we made earlier, and create a new database named osTicket. After setting up our database in HeidiSQL we can input our database information on OsTicket.
+</p>
+<p align="center">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/43096610-60a3-4c80-819c-1bfb92c0c5e9" height="400" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/20953254-7693-4d8f-80cc-ab423fc12f42" height="400" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/36e6f2da-2532-4669-8e75-bc300fb1d2c3" height="400" width="600">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/25673932-0b27-47f3-88bc-90bbb8b595c5" height="400" width="400">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/153fddc9-f6a5-4c39-a951-ea2851a73fd2" align="center" height="200" width="800">
+</p>
+<br />
