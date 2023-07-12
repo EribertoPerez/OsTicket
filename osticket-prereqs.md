@@ -91,6 +91,11 @@ Next, we'll download OsTicket and extract the 'upload' folder into the 'c:\inetp
 </p>
 <br />
 <p>
-Open osTicket from the IIS panel by 
+Open osTicket from the IIS panel by navigating to the osTicket site (Server > Sites > Default Web Site > OsTicket), then on the right hand side click on 'Browse *80' to open OsTicket
 </p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/896fe4ee-27c4-4657-bceb-51a7ddd761fe" height="400" width"1900">
+</p>
+<br />
+
 
