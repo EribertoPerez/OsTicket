@@ -128,7 +128,7 @@ the credentials we need to add our SQL database to OsTicket so we can have a dat
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/20953254-7693-4d8f-80cc-ab423fc12f42" height="400" width="500">
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/36e6f2da-2532-4669-8e75-bc300fb1d2c3" height="400" width="600">
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/25673932-0b27-47f3-88bc-90bbb8b595c5" height="400" width="400">
-<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/153fddc9-f6a5-4c39-a951-ea2851a73fd2" align="center" height="200" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/153fddc9-f6a5-4c39-a951-ea2851a73fd2" align="center" height="250" width="500">
 </p>
 <br />
 <p>
@@ -146,6 +146,6 @@ Next we'll click install now, and if it installs then everything worked out. Las
 Lastly, you can log into the admin panel by clicking the 'Your Staff Control Panel' link and entering your Admin credentials you created previously. End users can use the 'Your osTicket URL' link to create and submit tickets.
 </p>
 <p>
-<img src="" height="450" width="600">
-<img src="" height="450" width="400">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/0ec99a19-7b25-48a7-b577-7385ecfd1b78" height="225" width="600">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/8b02e66a-b46b-45f0-8baa-5a89b5626e64" height="225" width="400">
 </p>
