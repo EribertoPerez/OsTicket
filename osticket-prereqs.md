@@ -128,6 +128,24 @@ the credentials we need to add our SQL database to OsTicket so we can have a dat
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/20953254-7693-4d8f-80cc-ab423fc12f42" height="400" width="500">
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/36e6f2da-2532-4669-8e75-bc300fb1d2c3" height="400" width="600">
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/25673932-0b27-47f3-88bc-90bbb8b595c5" height="400" width="400">
-<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/153fddc9-f6a5-4c39-a951-ea2851a73fd2" align="center" height="200" width="800">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/153fddc9-f6a5-4c39-a951-ea2851a73fd2" align="center" height="200" width="500">
 </p>
 <br />
+<p>
+Next we'll click install now, and if it installs then everything worked out. Lastly, we'll clean up some loose ends by deleting the setup file in our osTicket folder
+(Windows(C:) > inetpub > wwwroot > osTicket > setup) after deleting that we just need to change permissions on the 'ost.config.php' file from earlier to read and execute only.
+</p>
+<p>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/dd219a36-847e-41bc-a202-528dd0ca5dc8" height="350" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/36818193-6c14-4f7c-bee0-1858198d0ffc" height="350" width="500">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/d99d17e6-9d52-4f23-a780-1a1b396c4a39" height="450" width="600">
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/dee81108-9725-4b2e-9829-f7b3f2738da5" height="450" width="400">
+</p>
+<br />
+<p>
+Lastly, you can log into the admin panel by clicking the 'Your Staff Control Panel' link and entering your Admin credentials you created previously. End users can use the 'Your osTicket URL' link to create and submit tickets.
+</p>
+<p>
+<img src="" height="450" width="600">
+<img src="" height="450" width="400">
+</p>
