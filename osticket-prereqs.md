@@ -98,7 +98,7 @@ Here is a link to all the downloads required for this lab: https://drive.google.
 </p>
 <br />
 <p>
-10) Now with OsTicket open in the browser you shold see some of the recommended features aren't enabled, we'll enable those by going to our OsTicket browser folder in IIS and using the PHP Manager. Go to enable or disable extentions and enable these extentions; 'php_imap.dil' , 'php_intl.dil' , and 'php_opcache.dil'. After doing this we'll refresh the browser and see that the ones we wnabled turn green.
+10) Now with OsTicket open in the browser you shold see some of the recommended features aren't enabled, we'll enable those by going to our OsTicket browser folder in IIS and using the PHP Manager. Go to enable or disable extentions and enable these extentions; 'php_imap.dil' , 'php_intl.dil' , and 'php_opcache.dil'. After doing this we'll refresh the browser and see that the ones we enabled turn green.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7da52cc6-7818-464f-8931-6e2a86a5cc67" height="400" width="500">
