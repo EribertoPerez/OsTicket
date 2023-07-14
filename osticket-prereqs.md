@@ -3,7 +3,8 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
+Here is a link to all the downloads required for this lab: www.taco.com <br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -12,7 +13,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>Operating System</h2>
 
 - Windows 10</b> (21H2)
 
@@ -31,14 +32,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 <p>
-Start off by logging into your Virtual Machine running Windows 10 or greater. Once logged in navigate to Turn Windows Features On or OFF in the Control Panel where we will enable and configure Internet Information Services (Control Panel > Programs > Turn Windows Features On or Off). Once here scroll down to and turn on Internet Information Services, then within IIS navigate to and check CGI (Internet Information Services > World Wide Web Services > Application Development Features > CGI). Next, backtrack to Common HTTP Features and make sure all features are checked (Internet Information Services > World Wide Web Services > Common HTTP Features). Once everything is enabled click ok to apply the changes you've made.
+1) Start off by logging into your Virtual Machine running Windows 10 or greater. Once logged in navigate to Turn Windows Features ON or OFF in the Control Panel where we will enable and configure Internet Information Services (Control Panel > Programs > Turn Windows Features ON or OFF). Once here scroll down to and turn on Internet Information Services (IIS), then within IIS navigate to and check CGI (Internet Information Services > World Wide Web Services > Application Development Features > CGI). Next, backtrack to Common HTTP Features and make sure all features are checked (Internet Information Services > World Wide Web Services > Common HTTP Features). Once everything is enabled click OK to apply the changes you've made.
 </p>
 <p>
 <img height="400" width="450" src="https://github.com/EribertoPerez/OsTicket/assets/34051119/87d16fc5-5ab1-472d-9588-942735a185ba">
 </p>
 <br />
 <p>
-Next, download and install PHP Manager for IIS and Rewrite Module.
+2) Download and install PHP Manager for IIS and Rewrite Module.
 </p>
 <p>
 <img height="400" width="450" src="https://github.com/EribertoPerez/OsTicket/assets/34051119/601dd66d-8c23-48ee-9099-2e4bc7e0e640">
@@ -46,14 +47,14 @@ Next, download and install PHP Manager for IIS and Rewrite Module.
 </p>
 <br />
 <p>
-Next, Create a new folder on your main drive named PHP and install PHP Version 7.3.8 into it.
+3) Create a new folder on your Windows(C:) drive named PHP and install PHP Version 7.3.8 into it.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/49092da9-d201-41b5-90f0-e889622213b9" height="400" width="450">
 </p>
 <br />
 <p>
-Next, download and install the C++ Redistributable and MySQL Server
+4) Download and install the C++ Redistributable and MySQL Server
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/6b2112e8-9ea6-4382-87aa-08a9ae146f88" height="300" width="450">
@@ -61,21 +62,21 @@ Next, download and install the C++ Redistributable and MySQL Server
 </p>
 <br />
 <p>
-Next, configure your SQL server (Make sure to write down or use a username and password you will remember!!!) and finish installing
+5) Configure your SQL server (Make sure to write down or use a username and password you will remember!!!) and finish installing
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7093c768-1a85-46fd-b7f0-edbbf41f3fa2" height="400" width="450">
 </p>
 <br />
 <p>
-Next, we will register PHP from within IIS. Start with opening IIS as an Admin and navigate to PHP Manager.
+6) Register PHP from within IIS. Start with opening IIS as an Admin and navigate to PHP Manager.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/0ad261cf-ae4b-4854-b5b7-dcadad15e6db" height="400" width="700">
 </p>
 <br />
 <p>
-From the PHP Manager select register new PHP version and select the folder we unzipped/downloaded PHP into earlier in the lab. Once finished registering PHP restart IIS so it's 
+7) From the PHP Manager select register new PHP version and select the folder we unzipped/downloaded PHP into earlier in the lab. Once finished registering PHP restart IIS so it's 
 using the changes we made.
 </p>
 <p>
@@ -83,7 +84,7 @@ using the changes we made.
 </p>
 <br />
 <p>
-Next, we'll download OsTicket and extract the 'upload' folder into the 'c:\inetpub\wwwroot' folder and rename it 'osTicket' with no spaces.
+8) Download OsTicket and extract the 'upload' folder into the 'c:\inetpub\wwwroot' folder and rename it 'osTicket' with no spaces.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/3cce9694-20af-4644-a5d2-1034caef8f9e" height="400" width="900">
@@ -91,15 +92,14 @@ Next, we'll download OsTicket and extract the 'upload' folder into the 'c:\inetp
 </p>
 <br />
 <p>
-Open osTicket from the IIS panel by navigating to the osTicket site (Server > Sites > Default Web Site > OsTicket), then on the right hand side click on 'Browse *80' to open OsTicket
+9) Open osTicket from the IIS panel by navigating to the osTicket site (Server > Sites > Default Web Site > OsTicket), then on the right hand side click on 'Browse *80' to open OsTicket
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/896fe4ee-27c4-4657-bceb-51a7ddd761fe" height="400" width="500">
 </p>
 <br />
 <p>
-Now with OsTicket open in the browser you shold see some of the recommended features aren't enabled, we'll enable those by going to our OsTicket browser folder in IIS and using the PHP 
-Manager. Go to enable or disable extentions and enable these extentions; 'php_imap.dil' , 'php_intl.dil' , and 'php_opcache.dil'. After doing this we'll refresh the browser and see that the ones we wnabled turn green.
+10) Now with OsTicket open in the browser you shold see some of the recommended features aren't enabled, we'll enable those by going to our OsTicket browser folder in IIS and using the PHP Manager. Go to enable or disable extentions and enable these extentions; 'php_imap.dil' , 'php_intl.dil' , and 'php_opcache.dil'. After doing this we'll refresh the browser and see that the ones we wnabled turn green.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7da52cc6-7818-464f-8931-6e2a86a5cc67" height="400" width="500">
@@ -108,8 +108,7 @@ Manager. Go to enable or disable extentions and enable these extentions; 'php_im
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/3d9233c8-56e2-4309-b3ba-cbb34a255da6" height="400" width="500">
 </p>
 <br />
-<p>
-Next, we need to rename and enable permissions for a file in our osTicket folder we renamed earlier (Windows(C:) > inetpub > wwwroot > osTicket > Include > ost.sampleconfig.php). 
+11) Rename and enable permissions for a file in our osTicket folder we renamed earlier (Windows(C:) > inetpub > wwwroot > osTicket > Include > ost.sampleconfig.php). 
 First we'll rename the file 'ost.sampleconfig.php' to 'ost.config.php', from there we'll change the permissions on that file to be open to 'everyone' (Properties > Security > Advanced). Disable Inheritance first, then add permissions for everyone.
 </p>
 <p>
@@ -120,7 +119,7 @@ First we'll rename the file 'ost.sampleconfig.php' to 'ost.config.php', from the
 </p>
 <br />
 <p>
-Now we'll continue with OsTicket in the browser, configure OsTicket with whichever credentials you prefer just make sure you write them down or remember them for later! After
+12) Continue with OsTicket in the browser, configure OsTicket with whichever credentials you prefer just make sure you write them down or remember them for later! After
 the credentials we need to add our SQL database to OsTicket so we can have a database for our users information. In order to do that we will install HeidiSQL, login with our SQL server credientials we made earlier, and create a new database named osTicket. After setting up our database in HeidiSQL we can input our database information on OsTicket.
 </p>
 <p align="center">
@@ -132,7 +131,8 @@ the credentials we need to add our SQL database to OsTicket so we can have a dat
 </p>
 <br />
 <p>
-Next we'll click install now, and if it installs then everything worked out. Lastly, we'll clean up some loose ends by deleting the setup file in our osTicket folder
+13) Click install now, it will install if everything was configured correctly. If it doesn't install go back and make sure you didn't skip any steps. If you need assistance feel free
+to message me:(www.linkedin.com/in/eriberto-perez-b33b41269) Lastly, we'll clean up some loose ends by deleting the setup file in our osTicket folder
 (Windows(C:) > inetpub > wwwroot > osTicket > setup) after deleting that we just need to change permissions on the 'ost.config.php' file from earlier to read and execute only.
 </p>
 <p>
@@ -143,7 +143,7 @@ Next we'll click install now, and if it installs then everything worked out. Las
 </p>
 <br />
 <p>
-Lastly, you can log into the admin panel by clicking the 'Your Staff Control Panel' link and entering your Admin credentials you created previously. End users can use the 'Your osTicket URL' link to create and submit tickets.
+14) Log into the admin panel by clicking the 'Your Staff Control Panel' link and entering your Admin credentials you created previously. End users can use the 'Your osTicket URL' link to create and submit tickets.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/0ec99a19-7b25-48a7-b577-7385ecfd1b78" height="225" width="600">
