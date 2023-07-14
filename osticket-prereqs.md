@@ -4,7 +4,7 @@
 
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
-Here is a link to all the downloads required for this lab: www.taco.com <br />
+Here is a link to all the downloads required for this lab:https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6<br />
 
 
 <h2>Environments and Technologies Used</h2>
