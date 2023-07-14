@@ -62,7 +62,7 @@ Here is a link to all the downloads required for this lab: https://drive.google.
 </p>
 <br />
 <p>
-5) Configure your SQL server (Make sure to write down or use a username and password you will remember!!!) and finish installing
+5) Configure your SQL server (Make sure to write down or use a username and password you will remember) and finish installing
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7093c768-1a85-46fd-b7f0-edbbf41f3fa2" height="400" width="450">
