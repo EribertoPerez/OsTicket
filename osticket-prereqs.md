@@ -69,15 +69,14 @@ Here is a link to all the downloads required for this lab: https://drive.google.
 </p>
 <br />
 <p>
-6) Register PHP from within IIS. Start with opening IIS as an Admin and navigate to PHP Manager.
+6) Register PHP from within IIS by opening IIS as an Admin and navigating to PHP Manager.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/0ad261cf-ae4b-4854-b5b7-dcadad15e6db" height="400" width="700">
 </p>
 <br />
 <p>
-7) From the PHP Manager select register new PHP version and select the folder we unzipped/downloaded PHP into earlier in the lab. Once finished registering PHP restart IIS so it's 
-using the changes we made.
+7) From the PHP Manager select register new PHP version and select the folder we unzipped/downloaded PHP into earlier in the lab, once finished restart IIS.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/2131b5ae-0a0d-4666-adfa-1f8323296978" height="400" width="700">
