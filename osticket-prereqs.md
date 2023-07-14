@@ -98,7 +98,7 @@ Here is a link to all the downloads required for this lab: https://drive.google.
 </p>
 <br />
 <p>
-10) Now with OsTicket open in the browser you shold see some of the recommended features aren't enabled, we'll enable those by going to our OsTicket browser folder in IIS and using the PHP Manager. Go to enable or disable extentions and enable these extentions; 'php_imap.dil' , 'php_intl.dil' , and 'php_opcache.dil'. After doing this we'll refresh the browser and see that the ones we enabled turn green.
+10) Now with OsTicket open in the browser you shold see some of the recommended features aren't enabled, we'll enable those by going to our OsTicket browser folder in IIS and using the PHP Manager. Go to enable or disable extentions and enable these extentions: 'php_imap.dil' , 'php_intl.dil' , and 'php_opcache.dil'. Refresh the browser.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7da52cc6-7818-464f-8931-6e2a86a5cc67" height="400" width="500">
@@ -107,8 +107,8 @@ Here is a link to all the downloads required for this lab: https://drive.google.
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/3d9233c8-56e2-4309-b3ba-cbb34a255da6" height="400" width="500">
 </p>
 <br />
-11) Rename and enable permissions for a file in our osTicket folder we renamed earlier (Windows(C:) > inetpub > wwwroot > osTicket > Include > ost.sampleconfig.php). 
-First we'll rename the file 'ost.sampleconfig.php' to 'ost.config.php', from there we'll change the permissions on that file to be open to 'everyone' (Properties > Security > Advanced). Disable Inheritance first, then add permissions for everyone.
+11) Rename and enable permissions for the file 'ost.sampleconfig.php' in the 'Include' folder in osTicket (Windows(C:) > inetpub > wwwroot > osTicket > Include > ost.sampleconfig.php). 
+Rename the file 'ost.sampleconfig.php' to 'ost.config.php', then change the permissions on that file to be open to 'everyone' (Properties > Security > Advanced). Disable Inheritance and add permissions for 'everyone'.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/e7ab106e-64e9-4b6f-9e17-302f91bc78b0" height="350" width="500">
@@ -118,8 +118,7 @@ First we'll rename the file 'ost.sampleconfig.php' to 'ost.config.php', from the
 </p>
 <br />
 <p>
-12) Continue with OsTicket in the browser, configure OsTicket with whichever credentials you prefer just make sure you write them down or remember them for later! After
-the credentials we need to add our SQL database to OsTicket so we can have a database for our users information. In order to do that we will install HeidiSQL, login with our SQL server credientials we made earlier, and create a new database named osTicket. After setting up our database in HeidiSQL we can input our database information on OsTicket.
+12) Continue with OsTicket in the browser, configure OsTicket with whichever credentials you prefer just make sure you write them down or remember them for later. Add our SQL database to OsTicket by installing HeidiSQL and logging in with our SQL server credientials we made earlier, and create a new database named osTicket. After input our database information on OsTicket.
 </p>
 <p align="center">
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/43096610-60a3-4c80-819c-1bfb92c0c5e9" height="400" width="500">
@@ -131,8 +130,8 @@ the credentials we need to add our SQL database to OsTicket so we can have a dat
 <br />
 <p>
 13) Click install now, it will install if everything was configured correctly. If it doesn't install go back and make sure you didn't skip any steps. If you need assistance feel free
-to message me:(www.linkedin.com/in/eriberto-perez-b33b41269) Lastly, we'll clean up some loose ends by deleting the setup file in our osTicket folder
-(Windows(C:) > inetpub > wwwroot > osTicket > setup) after deleting that we just need to change permissions on the 'ost.config.php' file from earlier to read and execute only.
+to connect and message me:(www.linkedin.com/in/eriberto-perez-b33b41269) Clean up loose ends by deleting the setup file in our osTicket folder
+(Windows(C:) > inetpub > wwwroot > osTicket > setup) and change permissions on the 'ost.config.php' file from earlier to read and execute only.
 </p>
 <p>
 <img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/dd219a36-847e-41bc-a202-528dd0ca5dc8" height="350" width="500">
