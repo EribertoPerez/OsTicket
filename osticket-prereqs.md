@@ -32,7 +32,7 @@ Here is a link to all the downloads required for this lab: https://drive.google.
 
 <h2>Installation Steps</h2>
 <p>
-1) Start off by logging into your Virtual Machine running Windows 10 or greater. Once logged in navigate to Turn Windows Features ON or OFF in the Control Panel where we will enable and configure Internet Information Services (Control Panel > Programs > Turn Windows Features ON or OFF). Once here scroll down to and turn on Internet Information Services (IIS), then within IIS navigate to and check CGI (Internet Information Services > World Wide Web Services > Application Development Features > CGI). Next, backtrack to Common HTTP Features and make sure all features are checked (Internet Information Services > World Wide Web Services > Common HTTP Features). Once everything is enabled click OK to apply the changes you've made.
+1) Start off by logging into your Virtual Machine. Once logged in navigate to Turn Windows Features ON or OFF in the Control Panel where we will enable and configure Internet Information Services (Control Panel > Programs > Turn Windows Features ON or OFF). Once here scroll down to and turn on Internet Information Services (IIS), then within IIS navigate to and check CGI (Internet Information Services > World Wide Web Services > Application Development Features > CGI). Next, backtrack to Common HTTP Features and make sure all features are checked (Internet Information Services > World Wide Web Services > Common HTTP Features).
 </p>
 <p>
 <img height="400" width="450" src="https://github.com/EribertoPerez/OsTicket/assets/34051119/87d16fc5-5ab1-472d-9588-942735a185ba">
