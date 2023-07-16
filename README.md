@@ -6,6 +6,8 @@
 This is a simplified guide for installing, configuring, and testing the open source ticketing system osTicket.
 If you need or want a more detailed explanation or guidance please feel free to connect with and message me here: www.linkedin.com/in/eriberto-perez-b33b41269
 </p>
-<h3>osTicket-prereqs</h3>
+
+[osTicket-prereqs](https://github.com/EribertoPerez/OsTicket/blob/main/osticket-prereqs.md)
+
 <h3>post-installation</h3>
 <h3>ticket-lifecycle</h3>
