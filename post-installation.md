@@ -83,6 +83,15 @@ differing grace periods and schedules. The purpose of the SLA Plan or Service Le
 <img height='200' width='600' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/c153fc5c-f758-409c-95a7-9d2c0a4f42b5'>
 </p>
 <br />
-
+<h3>Help Topics</h3>
+<p>
+Create new Help Topics by navigating to Help Topics and selecting 'Add New Help Topic' (Admin panel > Manage > Help Topics > Add New Help Topic). Here a few new Help Topics
+that were created. The purpose of Help Topics are to help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket. Create as many Help Topics as needed and can even nest Help Topics within each other for further breakdown (For example, Human Resources and Human Resources/Payroll.).
+</p>
+<p align='center'>
+<img height='300' width='500' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/71ce18cc-dd93-43b0-a833-8894b3eb41f6'>
+<img height='250' width='600' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/4811deb9-03b7-4519-9730-5af69f4cb428'>
+</p>
+<br />
 
 
