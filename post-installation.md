@@ -3,8 +3,10 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
+<p>
 This tutorial outlines a brief post-install configuration of the open-source help desk ticketing system osTicket. If you dont have a Virtual Machine 
-running osTicket already. Please see the [osTicket Prerequsites]() for more information on the lab environment.
+running osTicket already. Please see the osticket-prereqs for more information on the lab environment.
+</p>
 <br />
 
 <h2>Environments and Technologies Used</h2>
@@ -24,39 +26,19 @@ running osTicket already. Please see the [osTicket Prerequsites]() for more info
 - Departments 
 - Teams
 - Agents (workers)
-- Users? (Customers)
 - SLA (Service Level Agreement)
 - Help Topics
 
 <h3>Agent Panel</h3>
 
+- Users (Customers)
 - Ticket Assignment
-- 
--
--
 
-<h2>Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
 <br />
+<h2>Admin Panel Configurations</h2>
+<h4>Roles</h4>
+<p>
+Configure roles for agents in the admin panel by navigating to roles and select 'Add New Role' (Admin panel > Agents > Roles > Add New Role). In this picture
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img >
