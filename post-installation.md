@@ -50,8 +50,8 @@ but here the role 'Supreme Admin' was created. Whichever agent has this role wil
 <p>
 Configure departments by navigating to departments and selecting 'Add New Department' (Admin panel > Agents > Departments > Add New Department). Here the Department 'System Administrators' was created as an example. Departments are customizable for many businesses needs whether a busness is small or large.
 </p>
-<p width='1000'>
-<img height='550' width='550' align='center' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/a42df551-cc0c-4b03-9bf8-d4f99fc56d76'>
+<p align='center'>
+<img height='550' width='550' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/a42df551-cc0c-4b03-9bf8-d4f99fc56d76'>
 </p>
 
 
