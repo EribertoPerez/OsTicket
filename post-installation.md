@@ -48,13 +48,21 @@ but here the role 'Supreme Admin' was created. Whichever agent has this role wil
 <br />
 <h4>Departments</h4>
 <p>
-Configure departments by navigating to departments and selecting 'Add New Department' (Admin panel > Agents > Departments > Add New Department). Here the Department 'System Administrators' was created as an example. Departments are customizable for many businesses needs whether a busness is small or large.
+Configure departments by navigating to departments and selecting 'Add New Department' (Admin panel > Agents > Departments > Add New Department). Here the Department 'System Administrators' was created. Departments are customizable for many businesses needs whether a busness is small or large.
 </p>
 <p align='center'>
 <img height='550' width='550' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/a42df551-cc0c-4b03-9bf8-d4f99fc56d76'>
 </p>
-
-
+<br />
+<h4>Teams</h4>
+<p>
+Configure Teams by navigating to Teams and selecting 'Add New Team' (Admin panel > Agents > Teams > Add New Team). Here the Team 'System Administrators' was created as an example.
+Teams allow for blank blank blank
+</p>
+<p align='center'>
+<img height='550' width='550' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/a42df551-cc0c-4b03-9bf8-d4f99fc56d76'>
+</p>
+<br />
 
 
 
