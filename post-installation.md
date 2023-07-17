@@ -3,7 +3,9 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines a brief post-install configuration of the open-source help desk ticketing system osTicket. If you dont have a Virtual Machine 
+running osTicket already. Please see the [osTicket Prerequsites]() for more information on the lab environment.
+<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -16,12 +18,22 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Windows 10</b> (21H2)
 
 <h2>Post-Install Configuration Objectives</h2>
+<h3>Admin Panel</h3>
 
+- Roles
+- Departments 
+- Teams
+- Agents (workers)
+- Users? (Customers)
+- SLA (Service Level Agreement)
+- Help Topics
+
+<h3>Agent Panel</h3>
+
+- Ticket Assignment
 - 
-- 
-- 
-- 
-- 
+-
+-
 
 <h2>Configuration Steps</h2>
 
