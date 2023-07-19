@@ -9,5 +9,6 @@ If you need or want a more detailed explanation or guidance please feel free to 
 
 [osTicket-prereqs](https://github.com/EribertoPerez/OsTicket/blob/main/osticket-prereqs.md)
 
-<h3>post-installation</h3>
+[post-installation](https://github.com/EribertoPerez/OsTicket/blob/main/post-installation.md)
+
 <h3>ticket-lifecycle</h3>
