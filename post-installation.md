@@ -5,7 +5,7 @@
 <h1>osTicket - Post-Install Configuration</h1>
 <p>
 This tutorial outlines a brief post-install configuration of the open-source help desk ticketing system osTicket. If you dont have a Virtual Machine 
-running osTicket already. Please see the osticket-prereqs for more information on the lab environment.
+running osTicket already, please see the osticket-prereqs for more information on the lab environment.
 </p>
 <br />
 
