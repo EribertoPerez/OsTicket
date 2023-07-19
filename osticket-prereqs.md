@@ -13,7 +13,7 @@ Here is a link to all the downloads required for this lab: https://drive.google.
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating System</h2>
+<h2>Operating Systems Used</h2>
 
 - Windows 10</b> (21H2)
 
