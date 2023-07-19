@@ -32,7 +32,6 @@ running osTicket already. Please see the osticket-prereqs for more information o
 <h3>Agent Panel</h3>
 
 - Users (Customers)
-- Ticket Assignment
 
 <br />
 <h2>Admin Panel Configurations</h2>
@@ -93,5 +92,13 @@ that were created. The purpose of Help Topics are to help streamline your end-us
 <img height='250' width='600' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/4811deb9-03b7-4519-9730-5af69f4cb428'>
 </p>
 <br />
-
+<h2>Agent Panel Configurations</h2>
+<h3>Users (Customers)</h3>
+<p>
+Create new Users by navigating to User Directory and selecting 'Add User' (Agent panel > Users > User Directory > Add User). We've created multiple new users in this lab. Users can setup their own Account login information, but to first initialize them into osTicket a Name and Email is required.
+</p>
+<p align='center'>
+<img height='300' width='450' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/bc3f13c8-d0ec-41c5-8b88-090e1afb13b8'>
+<img height='250' width='700' src='https://github.com/EribertoPerez/OsTicket/assets/34051119/3acb66e0-b339-43bc-9849-a16a55c97595'>
+</p>
 
