@@ -64,7 +64,7 @@ Teams allow a business to pull agents from different departments and organize th
 <br />
 <h3>Agents</h3>
 <p>
-Create a new agent account by navigating to Agents and selecting 'Add New Agent' (Admin panel > Agents > Add New Agent). Here a few new Agents that were created and given 
+Create a new agent account by navigating to Agents and selecting 'Add New Agent' (Admin panel > Agents > Add New Agent). Here a few new Agents were created and given 
 differing Access and Permissions. Access and permissions can be modified at any time and help organize Agents so they have the proper Access or Permission(s).
 </p>
 <p align='center'>
