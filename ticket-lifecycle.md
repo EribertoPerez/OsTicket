@@ -22,27 +22,39 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Resolution
 
 <h2>Lifecycle Stages</h2>
-
+<h3>Intake</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Users, Agents, or Admins can all create and submit tickets. In this example tickets are being submitted from a users' standpoint. 
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p align='center'>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/d523d97c-0e27-4d53-8699-9c8f8fa8ab82" height="550" width="500" alt=""/>
 </p>
 <br />
 
+<h3>Assignment and Communication</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After tickets are submitted, they can be viewed in the agent panel under the 'Tickets' tab. Here tickets are able to be viewed, assigned, updated, and resolved. It is normal for a company to have a dedicated agent who exclusively assignes tickets to the right departments or teams. It is visible in this example to see the ticket priority and whom the ticket is assigned to.
 </p>
+<p align='center'>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/90be04b8-a739-4732-aa6c-8131b68958d9" height="400" width="800" alt=""/>
+</p>
+<br />
+
+<h3>Working the Issue</h3>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After receiving tickets and sorting based on priority or direct order from management, a Help Desk Agent would begin resolving any urgent issues. Depending on company policy Users are updated on the issue regularly until the issue is resolved. Here we see a Help Desk agent communicate to a user the progress made on their issue.
+</p>
+<p align='center'>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/ebd971de-1d37-4c82-a356-eb10e5caa889" height="500" width="800" alt=""/>
+</p>
+<br />
+
+<h3>Resolution</h3>
+<p>
+Once a ticket is resolved a Help Desk Agent communicates the solution and then marks the ticket as 'resolved'. It can be good practice to go back to older resolved tickets to gain experience from previous Help Desk Agents. In this last example we can see a ticket being resolved.
+</p>
+<p align='center'>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/dba4d554-4b46-48bf-929a-c5331ab1e0a1" height="700" width="800" alt=""/>
+<img src="https://github.com/EribertoPerez/OsTicket/assets/34051119/7f6aaa0f-2ae7-46a8-aaf9-4d72f972dc05" height="500" width="800" alt=""/>
 </p>
 <br />
