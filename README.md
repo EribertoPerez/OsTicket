@@ -11,4 +11,4 @@ If you need or want a more detailed explanation or guidance please feel free to 
 
 [post-installation](https://github.com/EribertoPerez/OsTicket/blob/main/post-installation.md)
 
-<h3>ticket-lifecycle</h3>
+[ticket-lifecycle](https://github.com/EribertoPerez/OsTicket/blob/main/ticket-lifecycle.md)
